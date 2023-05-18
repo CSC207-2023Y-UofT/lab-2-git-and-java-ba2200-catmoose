@@ -25,6 +25,12 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
+    public void testGondokarStudent(){
+        String exp = "Hi! My name is Radian! " +
+                "I like cats more than dogs! and coding.";
+        String actual = IntroLab.gondokarStudent();
+        assertEquals(exp, actual);
+    }
     /* TODO: Write a test case for the method you wrote in IntroLab.
      *       If done properly, you should be able to run IntroLabTest and see
      *       the test results.
